@@ -132,6 +132,7 @@
 #  negative = [i for i in numbers if i < 0 ]
 #  print(f"Negative numbers : {negative}")
 #
+
 # # ■ Створити список цілих,
 # # що містить лише позитивні числа з першого списку.
 #
