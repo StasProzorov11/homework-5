@@ -94,4 +94,49 @@
 # except ValueError as error:
 #     print(error)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# # Завдання 2
+# #
+# # Є список цілих, заповнений випадковими числами.
+# #
+# # На підставі даних цього масиву потрібно:
+# #
+# # ■ Створити список цілих, що містить лише парні числа з першого списку;
+# #
+# # ■ Створити список цілих, що містить лише непарні числа з першого списку;
+# #
+# # ■ Створити список цілих, що містить лише негативні числа з першого списку;
+# #
+# # ■ Створити список цілих, що містить лише позитивні числа з першого списку.
+#
+# try:
+#  import random
+#
+#  numbers = [random.randint(-100,100)for _ in range(20)]
+#  print(f"Numbers : {numbers}")
+#
+# # ■ Створити список цілих,
+# # що містить лише парні числа з першого списку
+#
+#  paired = [i for i in numbers if i % 2 == 0]
+#  print(f"Paired numbers : {paired}")
+#
+# # ■ Створити список цілих,
+# # що містить лише непарні числа з першого списку;
+#
+#  not_paired = [i for i in numbers if i % 2 != 0]
+#  print(f"Not paired numbers : {not_paired}")
+#
+# # ■ Створити список цілих,
+# # що містить лише негативні числа з першого списку;
+#
+#  negative = [i for i in numbers if i < 0 ]
+#  print(f"Negative numbers : {negative}")
+#
+# # ■ Створити список цілих,
+# # що містить лише позитивні числа з першого списку.
+#
+#  positive = [i for i in numbers if i > 0 ]
+#  print(f"Positive numbers : {positive}")
+#
+# except ValueError as error:
+#     print(error)
